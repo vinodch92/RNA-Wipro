@@ -21,7 +21,10 @@ const ImageCard = ({
   return (
     <View style={[styles.container, containerStyle]}>
       {authorName ? (
-        <Text style={[styles.text, textStyle]} numberOfLines={textNumLines}>
+        <Text
+          style={[styles.text, textStyle]}
+          numberOfLines={textNumLines}
+          testID={config.accessibilityStrings.AUTHOR_NAME_TEXT}>
           {authorName}
         </Text>
       ) : null}

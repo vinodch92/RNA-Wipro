@@ -1,7 +1,7 @@
 module.exports = {
   preset: 'react-native',
   transformIgnorePatterns: ['node_modules/(?!(react-native|react-native-action-sheet)/)'],
-  setupFiles: ['./_setup_/testsSetup.ts'],
+  setupFiles: ['./_setup_/testsSetup.js'],
   collectCoverage: true,
   collectCoverageFrom: ['**/app/**/*.{js,jsx}'],
   transform: {

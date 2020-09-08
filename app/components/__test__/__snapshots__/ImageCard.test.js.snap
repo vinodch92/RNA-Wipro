@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageCard matches snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "backgroundColor": "#34424A",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 5,
+          "elevation": 7,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 10,
+            "width": 10,
+          },
+          "shadowOpacity": 0.29,
+          "shadowRadius": 4.65,
+        },
+        Object {
+          "shadowColor": "#000000",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://picsum.photos/200/300?image=0",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 5,
+          "height": 300,
+          "marginBottom": 30,
+          "resizeMode": "contain",
+          "width": 200,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`ImageCard matches snapshot 2`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      Object {
+        "backgroundColor": "#34424A",
+      },
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "fontSize": 16,
+          "fontWeight": "500",
+          "marginHorizontal": 20,
+          "marginVertical": 10,
+        },
+        Object {
+          "color": "#FFFFFF",
+        },
+      ]
+    }
+    testID="author-name-text"
+  >
+    Paul Jarvis
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderRadius": 5,
+          "elevation": 7,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 10,
+            "width": 10,
+          },
+          "shadowOpacity": 0.29,
+          "shadowRadius": 4.65,
+        },
+        Object {
+          "shadowColor": "#000000",
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "https://picsum.photos/200/300?image=10",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 5,
+          "height": 300,
+          "marginBottom": 30,
+          "resizeMode": "contain",
+          "width": 200,
+        }
+      }
+    />
+  </View>
+</View>
+`;
