@@ -1,0 +1,1 @@
+export { getSliderImagesData } from './SliderImagesApi';
