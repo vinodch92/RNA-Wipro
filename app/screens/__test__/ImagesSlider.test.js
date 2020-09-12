@@ -1,7 +1,6 @@
 import React from 'react';
 import ImagesSlider from '../ImagesSlider';
 import { render } from '@testing-library/react-native';
-import { Dimensions } from 'react-native';
 import { Provider, useSelector, useDispatch } from 'react-redux';
 import configureStore from 'redux-mock-store';
 import { data } from '../../../__fixture__/imagesSliderData';

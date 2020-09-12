@@ -18,14 +18,13 @@ exports[`ImageCard matches snapshot 1`] = `
       Array [
         Object {
           "borderRadius": 5,
-          "elevation": 7,
-          "shadowColor": "#000000",
+          "shadowColor": "black",
           "shadowOffset": Object {
-            "height": 10,
-            "width": 10,
+            "height": 3,
+            "width": 3,
           },
-          "shadowOpacity": 0.29,
-          "shadowRadius": 4.65,
+          "shadowOpacity": 0.4,
+          "shadowRadius": 10,
         },
         Object {
           "shadowColor": "#000000",
@@ -90,14 +89,13 @@ exports[`ImageCard matches snapshot 2`] = `
       Array [
         Object {
           "borderRadius": 5,
-          "elevation": 7,
-          "shadowColor": "#000000",
+          "shadowColor": "black",
           "shadowOffset": Object {
-            "height": 10,
-            "width": 10,
+            "height": 3,
+            "width": 3,
           },
-          "shadowOpacity": 0.29,
-          "shadowRadius": 4.65,
+          "shadowOpacity": 0.4,
+          "shadowRadius": 10,
         },
         Object {
           "shadowColor": "#000000",
