@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet, Platform } from 'react-native';
 import config from '../config';
 
 /**
@@ -19,7 +19,7 @@ const ImageCard = ({
   const imageSource = `${config.imagesDataBaseUrl}/${config.imageWidth}/${config.imageHeight}?image=${id}`;
 
   return (
-    <View style={[styles.container, containerStyle]}>
+    <View key={id} style={[styles.container, containerStyle]}>
       {authorName ? (
         <Text
           style={[styles.text, textStyle]}
@@ -45,11 +45,17 @@ const styles = StyleSheet.create({
   },
   imageWrapper: {
     borderRadius: 5,
-    shadowColor: config.colors.black,
-    shadowOffset: { width: 10, height: 10 },
-    shadowOpacity: 0.29,
-    shadowRadius: 4.65,
-    elevation: 7,
+    ...Platform.select({
+      ios: {
+        shadowColor: 'black',
+        shadowOffset: { width: 3, height: 3 },
+        shadowOpacity: 0.4,
+        shadowRadius: 10,
+      },
+      android: {
+        elevation: 5,
+      },
+    }),
   },
   image: {
     width: config.imageWidth,

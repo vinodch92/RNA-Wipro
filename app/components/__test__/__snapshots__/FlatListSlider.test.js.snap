@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlatListSlider matches snapshot 1`] = `
+<RCTScrollView
+  bounces={false}
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+  decelerationRate="fast"
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  getItemLayout={[Function]}
+  horizontal={true}
+  initialNumToRender={1}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={true}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  snapToInterval={750}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={1}
+>
+  <View />
+</RCTScrollView>
+`;
+
+exports[`FlatListSlider matches snapshot 2`] = `
+<RCTScrollView
+  bounces={false}
+  contentContainerStyle={
+    Array [
+      Object {
+        "alignItems": "center",
+      },
+      undefined,
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "author": "Alejandro Escamilla",
+        "author_url": "https://unsplash.com/photos/yC-Yzbqy7PY",
+        "filename": "0.jpeg",
+        "format": "jpeg",
+        "height": 3744,
+        "id": 0,
+        "post_url": "https://unsplash.com/photos/yC-Yzbqy7PY",
+        "width": 5616,
+      },
+      Object {
+        "author": "Alejandro Escamilla",
+        "author_url": "https://unsplash.com/photos/LNRyGwIJr5c",
+        "filename": "1.jpeg",
+        "format": "jpeg",
+        "height": 3744,
+        "id": 1,
+        "post_url": "https://unsplash.com/photos/LNRyGwIJr5c",
+        "width": 5616,
+      },
+      Object {
+        "author": "Paul Jarvis",
+        "author_url": "https://unsplash.com/photos/6J--NXulQCs",
+        "filename": "10.jpeg",
+        "format": "jpeg",
+        "height": 1667,
+        "id": 10,
+        "post_url": "https://unsplash.com/photos/6J--NXulQCs",
+        "width": 2500,
+      },
+      Object {
+        "author": "Tina Rataj",
+        "author_url": "https://unsplash.com/photos/pwaaqfoMibI",
+        "filename": "100.jpeg",
+        "format": "jpeg",
+        "height": 1656,
+        "id": 100,
+        "post_url": "https://unsplash.com/photos/pwaaqfoMibI",
+        "width": 2500,
+      },
+    ]
+  }
+  decelerationRate="fast"
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  getItemLayout={[Function]}
+  horizontal={true}
+  initialNumToRender={1}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={1}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  pagingEnabled={true}
+  removeClippedSubviews={true}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  showsHorizontalScrollIndicator={false}
+  snapToInterval={750}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={1}
+>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          null,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+            },
+            Object {
+              "marginHorizontal": 20,
+              "width": 710,
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontSize": 16,
+                "fontWeight": "500",
+                "marginHorizontal": 20,
+                "marginVertical": 10,
+              },
+              undefined,
+            ]
+          }
+          testID="author-name-text"
+        >
+          Alejandro Escamilla
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 5,
+                "shadowColor": "black",
+                "shadowOffset": Object {
+                  "height": 3,
+                  "width": 3,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 10,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            source={
+              Object {
+                "uri": "https://picsum.photos/200/300?image=0",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": 5,
+                "height": 300,
+                "marginBottom": 30,
+                "resizeMode": "contain",
+                "width": 200,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "width": 2250,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

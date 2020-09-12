@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import StorybookUIRoot from '../storybook';
 import config from './config';
 import { ImagesSlider } from './screens';
+import { StatusBar } from 'react-native';
 
 const App = () => {
   /* storybookEnabled to be set in localConfig.js */
@@ -12,6 +13,7 @@ const App = () => {
 
   return (
     <Provider store={config.store}>
+      <StatusBar barStyle="light-content" />
       <ImagesSlider />
     </Provider>
   );
