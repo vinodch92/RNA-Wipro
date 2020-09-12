@@ -48,17 +48,19 @@ const FlatListSlider = ({ contentContainerStyle, dataLength, ...props }) => {
   /* keyExtractor for flatlist */
   const keyExtractor = (item, index) => `${item.id}_${index}`;
 
+  const getScreenWidth = () => Math.round(Dimensions.get('screen').width);
+
   return (
     <FlatList
       ref={flatListRef}
       pagingEnabled={true}
-      snapToInterval={Math.round(Dimensions.get('screen').width)}
+      snapToInterval={getScreenWidth()}
       decelerationRate="fast"
       bounces={false}
       horizontal
       getItemLayout={(data, index) => ({
-        length: Math.round(Dimensions.get('screen').width),
-        offset: Math.round(Dimensions.get('screen').width) * index,
+        length: getScreenWidth(),
+        offset: getScreenWidth() * index,
         index,
       })}
       windowSize={1}
